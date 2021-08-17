@@ -71,10 +71,11 @@ input.form-control {
 
 #logo {
     align-items: center;
-    
+    height: auto;
+    width: 400px;
     justify-content: center;
     margin-top: 250px;
-    margin-left: 800px;
+    margin-left: 750px;
     text-align: right;
 }
 
