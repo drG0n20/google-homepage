@@ -1,14 +1,5 @@
-/* div {
-    
-    margin-top: 180px;
-    margin-left: 650px;
-    text-align: center; 
-} */
-
-
-
 header {
-    display: block;
+    display: flex;
     color: black;
     text-align: right;
     padding: 15px 20px;
@@ -21,7 +12,6 @@ header {
 
 input {
     background-image: url(../images/search.png);
-    color: darkorchid;
     background-position: 10px center;
     background-repeat: no-repeat;
     -webkit-border-radius: 4px;
@@ -36,25 +26,23 @@ input {
     -webkit-transition: all 0.2s;
     -moz-transition: all 2s;
     transition: all 0.2s;
-    width: auto;
 }
 
 input:hover {
-    box-shadow: 2px 1px 20px grey;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
 }
 
 .btn.left{
-    display: inline;
-    float: left;
-    margin-left: 41%;
-    width: auto;
+    margin-right: 3px;
     -webkit-appearance: button;
 }
 .btn.right{
-    display: inline;
-    float: right;
-    margin-right: 41%;
-    width: 170px;
+    margin-left: 3px;
     -webkit-appearance: button;
 }
 
@@ -74,7 +62,7 @@ input.form-control {
 }
 
 #logo {
-    align-items: center;
+    justify-content: center;
     height: auto;
     width: 400px;
     justify-content: center;
