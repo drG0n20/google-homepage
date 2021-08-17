@@ -39,17 +39,21 @@ input {
     width: auto;
 }
 
+input:hover {
+    box-shadow: 2px 1px 20px grey;
+}
+
 .btn.left{
     display: inline;
     float: left;
-    margin-left: 810px;
+    margin-left: 41%;
     width: auto;
     -webkit-appearance: button;
 }
 .btn.right{
     display: inline;
     float: right;
-    margin-right: 790px;
+    margin-right: 41%;
     width: 170px;
     -webkit-appearance: button;
 }
